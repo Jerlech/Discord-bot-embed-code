@@ -3,7 +3,7 @@ const config = require('./config.json');
 const client = new Discord.Client();
 
 client.on("message", async message => {
-   if(message.content === "!embed") {
+   if(message.content === `${prefix}embed`) {
   let embed = new Discord.MessageEmbed()
   .setAuthor(message.author.tag, message.author.displayAvatarURL({ dynamic: true }))//you can also set the author to say whatever you want, not just who send the command.  Exp: .setAuthor("My embed").
   .setTitle("set-the-embeds-title-here!")
@@ -19,4 +19,4 @@ client.on("message", async message => {
 })
 
 
-client.login(config.token);
+client.login(token);
