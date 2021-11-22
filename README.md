@@ -6,4 +6,4 @@ A simple code that will send an embed.
 
 Do npm init -y into your shell
 
-Then do npm install discord.js@12.5.1  (This does not work on v13, you will get the error "cannont find module node:events")
+Then do npm install discord.js@12.5.1  (This does not work on v13, you will get the error "cannot find module node:events")
